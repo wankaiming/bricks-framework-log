@@ -1,0 +1,12 @@
+server:
+  context-path: /
+  port: 8000
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  mvc:
+    favicon:
+      enabled: false
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
