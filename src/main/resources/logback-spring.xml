@@ -2,7 +2,7 @@
 <configuration>
 	
 	<!-- 定义日志输出格式 -->
-	<property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger %msg%n" />
+	<property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger %msg%n" />
 	<!-- 定义日志输出编码 -->
 	<property name="charset" value="utf-8"/>
 	<!-- 定义日志存放的根目录 -->
@@ -143,11 +143,7 @@
 		</rollingPolicy>
 	</appender>
 
-	<logger name="dao" level="debug" />
 	<logger name="org.springframework" level="info" />
-	<logger name="com.zaxxer" level="info" />
-	<logger name="io.netty" level="info" />
-	<logger name="org.hibernate" level="info" />
 
 	<root level="debug">
 		<appender-ref ref="consoleLog" />

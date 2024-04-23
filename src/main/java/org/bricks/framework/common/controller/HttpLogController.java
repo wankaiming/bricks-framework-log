@@ -1,14 +1,13 @@
-package org.bricks.framework.common.rest.controller;
+package org.bricks.framework.common.controller;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-
-import javax.servlet.http.HttpServletRequest;
-
+import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.io.BufferedReader;
+import java.io.IOException;
 
 @RestController
 public class HttpLogController {
