@@ -6,7 +6,7 @@
 	<groupId>org.bricks.framework</groupId>
 	<artifactId>bricks-framework-log</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>bricks-framework-log</name>
 
@@ -30,7 +30,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
-		<!-- Ôö¼ÓjspµÄÖ§³Ö -->
+		<!-- å¢žåŠ jspçš„æ”¯æŒ -->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
